@@ -143,6 +143,7 @@ form input::placeholder {
 
 #filtres ul li:hover {
    background-color: #F2F2F2;
+   cursor: pointer;
 }
 
 .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog {
@@ -578,4 +579,116 @@ footer li {
 footer li a {
    text-decoration: none;
    color: black;
+}
+
+@media all and (max-width: 1550px) {
+
+   #box_act50-1 img {
+      object-position: -200px -400px;
+   }
+   #box_act40-2 img {
+      object-position: -150px -50px;
+   }
+   #box_act50-2 img {
+      object-position: -80px -50px;
+   }
+}
+
+@media all and (max-width: 1440px) {
+   .act-filtre-pop {
+      left: 150px;
+   }
+}
+
+@media all and (max-width: 1280px) {
+   #box_act50-1 img {
+      object-position: -240px -400px;
+   }
+   #box_act3 img {
+      object-position: -500px -180px;
+   }
+}
+
+@media all and (max-width: 1250px) {
+   .act-filtre-pop {
+      left: 140px;
+   }
+   h4, p {
+      font-size: small;
+   }
+}
+
+@media all and (max-width: 1210px) {
+   .act-filtre-pop {
+      left: 130px;
+   }
+}
+
+@media all and (max-width: 1170px) {
+   .act-filtre-pop {
+      left: 121px;
+   }
+}
+
+@media all and (max-width: 1110px) {
+   #filtres ul li {
+      margin-bottom: 10px;
+   }
+}
+
+@media all and (max-width: 1030px) {
+   .act-filtre-pop {
+      left: 0px;
+      width: 100%;
+      height: 40%;
+   }
+   .act-filtre-pop h4 {
+      top: -15px;
+      width: 100%;
+   }
+   .act-filtre-pop p {
+      top: 10px;
+   }
+   .act-filtre-pop .fivestars {
+      top: 40px;
+   }
+   #pop1 img {
+      object-position: 0px -50px;
+   }
+   #pop2 img {
+      object-position: 0px -40px;
+   }
+   #pop3 img {
+      width: 280px;
+      height: 400px;
+      object-position: 0px -180px;
+   }
+   #box_act50-1 img {
+      object-position: -250px -400px;
+   }
+   #box_act50-2 img {
+      object-position: -140px -50px;
+   }
+   #box_act40-2 img {
+      object-position: -200px -50px;
+   }
+}
+
+@media all and (max-width: 1030px) {
+
+   #box_act50-1 img {
+      object-position: -15px -10px;
+      width: 250px;
+      height: 300px;
+   }
+   #box_act50-2 img {
+      object-position: -30px 0px;
+      width: 280px;
+      height: 200px;
+   }
+   #box_act40-1 img {
+      object-position: -10px -10px;
+      width: 280px;
+      height: 250px;
+   }
 }
