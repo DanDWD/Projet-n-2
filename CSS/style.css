@@ -1037,7 +1037,7 @@ footer li a {
    #mar1 img {
       width: 700px;
       height: 400px;
-      object-position: -100px -50px;
+      object-position: 0px -50px;
    }
 
    #mar2 img {
@@ -1049,13 +1049,13 @@ footer li a {
    #mar3 img {
       width: 700px;
       height: 400px;
-      object-position: -60px -10px;
+      object-position: 0px -10px;
    }
 
    #mar4 img {
       width: 700px;
       height: 500px;
-      object-position: -60px -70px;
+      object-position: 0px -70px;
    }
    
    #mar5 img {
@@ -1067,7 +1067,7 @@ footer li a {
    #mar6 img {
       width: 700px;
       height: 900px;
-      object-position: -80px -270px;
+      object-position: 0px -270px;
    }
 
    .afficher {
@@ -1114,36 +1114,36 @@ footer li a {
    }
 
    #box_act1 img {
-      object-position: -60px 0px;
+      object-position: 0px 0px;
    }
 
    #box_act50-1 img {
-      object-position: 0px -180px;
-      width: 607px;
-      height: 800px;
+      object-position: 0px -250px;
+      width: 707px;
+      height: 900px;
    }
    
    #box_act40-1 img {
       object-position: 0px 0px;
-      width: 607px;
+      width: 707px;
       height: 400px;
    } 
 
    #box_act3 img {
       object-position: 0px 0px;
-      width: 607px;
+      width: 707px;
       height: 400px;
    }
 
    #box_act50-2 img {
       object-position: 0px 0px;
-      width: 607px;
+      width: 707px;
       height: 400px;
    }
    
    #box_act40-2 img {
       object-position: 0px 0px;
-      width: 607px;
+      width: 707px;
       height: 400px;
    } 
 
