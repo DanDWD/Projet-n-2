@@ -1072,7 +1072,8 @@ footer li a {
 
    .afficher {
       font-size: 1.7em;
-      width: 250px;
+      width: 200px;
+      margin-top: -30px;
    }
 
    h2 {
@@ -1165,4 +1166,8 @@ footer li a {
    footer li a {
       font-size: 1.3em;
    }
+
+   #foot_box1, #foot_box2, #foot_box3 {
+      margin-left: 30px;
+    }
 }  
