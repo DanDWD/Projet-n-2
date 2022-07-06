@@ -20,6 +20,17 @@ main, header {
    -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
 }
 
+/*animation visuelle des boxes*/
+
+#mar1, #mar2, #mar3, #mar4, #mar5, #mar6, #pop1, #pop2, #pop3, #box_act1, #box_act3, #box_act50-1, #box_act50-2, #box_act40-1, #box_act40-2 { 
+   transition: all .2s ease-in-out; 
+}
+
+#mar1:hover, #mar2:hover, #mar3:hover, #mar4:hover, #mar5:hover, #mar6:hover, #pop1:hover, #pop2:hover, #pop3:hover, #box_act1:hover, #box_act3:hover, #box_act50-1:hover, #box_act50-2:hover, #box_act40-1:hover, #box_act40-2:hover { 
+   transform: scale(1.05); 
+}
+
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -297,7 +308,7 @@ h2 {
 #mar6 img {
    width: 350px;
    height: 350px;
-   object-position: -10px -100px;
+   object-position: -10px -150px;
 }
 
 .act-filtre-mar {
@@ -1043,19 +1054,19 @@ footer li a {
    #mar2 img {
       width: 700px;
       height: 400px;
-      object-position: -5px -10px;
+      object-position: -5px -40px;
    }
 
    #mar3 img {
       width: 700px;
       height: 400px;
-      object-position: 0px -10px;
+      object-position: 0px -40px;
    }
 
    #mar4 img {
       width: 700px;
       height: 500px;
-      object-position: 0px -70px;
+      object-position: 0px -130px;
    }
    
    #mar5 img {
@@ -1066,8 +1077,8 @@ footer li a {
 
    #mar6 img {
       width: 700px;
-      height: 900px;
-      object-position: 0px -270px;
+      height: 500px;
+      object-position: 0px -150px;
    }
 
    .afficher {
@@ -1169,5 +1180,435 @@ footer li a {
 
    #foot_box1, #foot_box2, #foot_box3 {
       margin-left: 30px;
-    }
+   }
 }  
+
+@media all and (max-width: 700px) {
+
+   h1 {
+      font-size: 1.5em;
+   }
+
+   #filtres {
+      font-size: 1.3em;
+   }
+
+   #box_heb2 h2 {
+      font-size: 1.4em;
+   }
+
+   #box_heb1 h2 {
+      margin: 5px 0 5px 40px;
+      font-size: 1.4em;
+   }
+
+   .afficher {
+      font-size: 1.2em;
+      margin-top: -50px;
+   }
+
+   h2 {
+      font-size: 1.4em;
+      margin-bottom: 30px;
+   }
+
+   .act-filtre-solo h4, .act-filtre-40 h4, .act-filtre-50 h4 {
+      font-size: 1.2em;
+      top: 20px;
+   }
+
+   footer p {
+      font-size: 1.2em;
+   }
+
+   footer li a {
+      font-size: 1.1em;
+   }
+}
+
+@media all and (max-width: 600px) {
+
+   #box_heb1 {
+      height: 2400px;
+   }
+
+   #mar1 img {
+      object-position: 0px -90px;
+   }
+
+   #mar2 img {
+      object-position: -5px -90px;
+   }
+
+   #mar3 img {
+      object-position: 0px -90px;
+   }
+
+   #mar4 img {
+      object-position: 0px -180px;
+   }
+
+   #mar6 img {
+      object-position: 0px -180px;
+   }
+
+   .afficher {
+      margin-top: 5px;
+      margin-left: 0px;
+   }
+
+   #mar1, #mar2, #mar3, #mar4, #mar5, #mar6 {
+      height: 350px;
+   }
+
+   #box_act1, #box_act3, #box_act50-1, #box_act50-2, #box_act40-1, #box_act40-2 {
+      height: 350px;
+   }
+
+   .act-filtre-solo h4, .act-filtre-40 h4, .act-filtre-50 h4 {
+      top: 15px;
+   }
+
+   #box_act50-40, #box_act40-50 {
+      height: 730px;
+   }
+
+   #activites {
+      height: 2350px;
+   }
+
+   #recherche p {
+      font-size: 1.1em;
+   }
+
+   #box_act3 img {
+      object-position: -55px -50px;
+   }
+
+   #box_act1 img {
+      object-position: 0px -80px;
+   }
+
+   #box_act50-2 img {
+      object-position: -80px -50px;
+   }
+
+   #box_act50-1 img {
+      object-position: -60px -300px;
+   }
+}
+
+@media all and (max-width: 550px) {
+
+   #mar4 img {
+      object-position: -150px -180px;
+   }
+
+   #mar6 img {
+      object-position: -150px -180px;
+   }
+
+   .act-filtre-pop h4 {
+      width: 65%;
+   }
+}
+
+@media all and (max-width: 500px) {
+
+   h1 {
+      font-size: 1.4em;
+   }
+
+   #recherche p {
+      font-size: 1em;
+   }
+
+   #filtres {
+      font-size: 1em;
+   }
+
+   button, input, optgroup, select, textarea {
+      font-size: 1em;
+   }
+
+   #info i {
+      font-size: 1em;
+   }
+
+   .act-filtre-pop h4 {
+      width: 60%;
+   }
+}
+
+@media all and (max-width: 470px) {
+
+   #mar1 img {
+      object-position: -250px -90px;
+   }
+
+   #mar2 img {
+      object-position: -120px -90px;
+   }
+
+   #mar3 img {
+      object-position: -50px -50px;
+      width: 600px;
+      height: 300px;
+   }
+
+   #box_act50-1 img {
+      object-position: -160px -300px;
+   }
+
+   #box_act40-1 img {
+      object-position: -50px 0px;
+      width: 607px;
+      height: 300px;
+   }
+
+   #box_act40-2 img {
+      object-position: 0px 0px;
+      width: 507px;
+      height: 300px;
+   }
+
+   #box_act50-2 img {
+      object-position: -50px 0px;
+      width: 507px;
+      height: 250px;
+   }
+
+   form button {
+      right: 25px;
+   }
+
+   #absolute1 .fa-money-bill-wave, #absolute2 .fa-child-reaching, #absolute3 .fa-heart, #absolute4 .fa-dog {
+      left: -3px;
+   }
+
+   h1 {
+      font-size: 1em;
+   }
+
+   #recherche p {
+      font-size: 0.9em;
+   }
+
+   .act-filtre-pop {
+      left: 150px;
+   }
+}
+
+@media all and (max-width: 450px) {
+
+   form input {
+      width: 70%;
+   }
+}
+
+@media all and (max-width: 400px) {
+
+   h1 {
+      font-size: 0.8em;
+   }
+
+   #mar1, #mar2, #mar3, #mar4, #mar5, #mar6 {
+      height: 300px;
+   }
+
+   .act-filtre-mar {
+      height: 30%;
+   }
+
+   #box_heb1 {
+      height: 2100px;
+   }
+
+   #mar1 img {
+      object-position: -250px -150px;
+   }
+
+   #mar2 img {
+      object-position: -120px -150px;
+   }
+
+   #mar4 img {
+      object-position: -220px -250px;
+   }
+
+   #mar5 img {
+      width: 500px;
+      height: 300px;
+      object-position: -25px -80px;
+   }
+
+   #mar6 img {
+      width: 600px;
+      height: 500px;
+      object-position: -150px -230px;
+   }
+
+   #box_act1, #box_act3, #box_act50-1, #box_act50-2, #box_act40-1, #box_act40-2 {
+      height: 300px;
+   }
+
+   #box_act3 img {
+      object-position: -120px -90px;
+   }
+
+   #box_act50-2 img {
+      object-position: -20px 0px;
+      width: 407px;
+      height: 250px;
+   }
+
+   #activites {
+      height: 2000px;
+   }
+
+   #box_act50-40, #box_act40-50 {
+      height: 630px;
+   }
+
+   .act-filtre-pop p {
+      top: 50px;
+      font-size: 0.8em;
+   }
+
+   form input {
+      width: 60%;
+   }
+
+   form button {
+      right: 40px;
+   }
+
+   button, input, optgroup, select, textarea {
+      font-size: 0.8em;
+   }
+
+   .fa-location-dot {
+      font-size: 1.2em;
+   }
+}   
+
+@media all and (max-width: 370px) {
+
+   form button {
+      right: 20px;
+   }
+
+   button, input, optgroup, select, textarea {
+      font-size: 0.6em;
+   }
+
+   nav a {
+      font-size: 1em;
+   }
+
+   #recherche p {
+      font-size: 0.8em;
+   }
+
+   #filtres ul {
+      padding: 0px;
+   }
+
+   #filtres ul li {
+      margin-right: 5px;
+   }
+
+   #info i {
+      padding: 1px;
+      margin-right: 5px;
+      vertical-align: middle;
+   }
+
+   #box_heb2 h2 {
+      font-size: 1em;
+   }
+
+   #h2_star i {
+      font-size: 1em;
+   }
+
+   #h2_star {
+      align-items: baseline;
+   }
+
+   .act-filtre-pop {
+      left: 120px;
+   }
+
+   .act-filtre-pop p {
+      top: 60px;
+      font-size: 0.8em;
+   }
+
+   .act-filtre-pop h4 {
+      width: 68%;
+   }
+
+   #pop1 img {
+      object-position: -20px -10px;
+   }
+
+   #pop2 img {
+      object-position: -30px -40px;
+   }
+
+   #pop3 img {
+      object-position: -40px -180px;
+   }
+
+   #box_heb1 h2 {
+      font-size: 1em;
+   }
+
+   #mar3 img {
+      object-position: -180px -80px;
+   }
+
+   #mar4 img {
+      width: 500px;
+      height: 300px;
+      object-position: -150px -50px;
+   }
+
+   #mar6 img {
+      width: 400px;
+      height: 300px;
+      object-position: -90px -50px;
+   }
+
+   h2 {
+      font-size: 1.2em;
+   }
+
+   .act-filtre-solo h4, .act-filtre-40 h4, .act-filtre-50 h4 {
+      top: 10px;
+      font-size: 1em;
+   }
+
+   #box_act50-1 img {
+      object-position: -110px -300px;
+      width: 507px;
+      height: 800px;
+   }
+
+   #box_act40-2 img {
+      object-position: -40px 0px;
+      width: 407px;
+      height: 300px;
+   }
+
+   #box_act50-2 img {
+      object-position: -20px 0px;
+      width: 350px;
+      height: 250px;
+   }
+}
+
+
+
+
