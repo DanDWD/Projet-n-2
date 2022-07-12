@@ -30,7 +30,6 @@ main, header {
    transform: scale(1.05); 
 }
 
-
 header {
 	display: flex;
 	justify-content: space-between;
