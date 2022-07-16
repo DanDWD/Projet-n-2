@@ -57,15 +57,17 @@ nav li {
 }
 
 nav a {
-    font-size: 1em;
-    padding-top: 59px;
-    color: black;
-    text-decoration: none;
+   font-size: 1em;
+   padding-top: 59px;
+   color: black;
+   text-decoration: none;
+   padding-left: 25px;
+   padding-right: 25px;
 }
 
 nav a:hover {
    color:#0065FC;
-    border-top: 2px solid #0065FC;
+   border-top: 2px solid #0065FC;
 }
 
 /* 1ere section - recherche */
